@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #2d3e50;
+  margin-bottom: 20px;
+}
+
+.login-Container {
+  width: 500px;
+  padding: 70px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #d1cdcd;
+}
+
+.login-Container h1 {
+  font-size: 28px;
+  color: #2d3e50;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login-input-div {
+  margin-bottom: 15px;
+}
+
+.login-input-div input {
+  border: 2px solid #575555;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-button-div {
+  text-align: center;
+  
+}
+
+.login-button {
+  margin-bottom: 30px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.AdminPage-container {
+  border: 2px solid #575555;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120%; 
+  max-width: 1200px; 
+  padding: 20px;
+  margin: 0 auto; 
+}
+
+.AdminPage-buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 20px; 
+  padding-right: 20px;
+}
+
+.AdminPage-buttons button {
+  border: 2px solid #575555;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #45a049;
+}
+
+.EmployeeContainer {
+  display: flex;
+  width: 100%; 
+  gap: 10px; 
+}
+
+.EmployeeList,
+.EmployeeInfo {
+  flex: 1; 
+  border: 1px solid #575555;
+  border-radius: 5px;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 600px; 
+  width: 100%;
+}
+
+.EmployeeList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+.EmployeeInfo h2, .EmployeeInfo p {
+  margin-bottom: 10px;
+}
+
+.EmployeeInfo button {
+  border: 2px solid #575555;
+  border-radius: 5px;
+  margin-left: 25px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #45a049;
+}
+
+.employee-list-div {
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 2px solid #5f5e5e;
+  cursor: pointer;
+  border: 1px solid #575555;
+  border-radius: 5px;
+}
+
+.employee-list-div:hover {
+  background-color: #f9f9f9;
+}
+
+.addEmp-container {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.addEmp-container h2 {
+  font-size: 24px;
+  color: #2d3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.addEmp-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addEmp-input-div {
+  margin-bottom: 15px;
+}
+
+.addEmp-input-div input {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.addEmp-button-div {
+  text-align: center;
+}
+
+.AddEmp-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.AddEmp-button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .login-Container,
+  .addEmp-container,
+  .AdminPage-container {
+    width: 90%;
+  }
+
+  .login-button,
+  .AddEmp-button {
+    padding: 12px 20px;
+  }
+
+  .EmployeeList div {
+    font-size: 16px;
+  }
+}
+
+.back-button {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+}
